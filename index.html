@@ -9,12 +9,15 @@
 
 </head>
 <body>
-  <h1>Welcome To The Coding Quiz</h1>
+  <header>Welcome To The Coding Quiz</header>
 
   <div class = 'startCont'>
+    
     <p>Anser the Questions within the time limit, for every wrong answer your Time Will be decreased by 15 seconds.</p>
-    <p>If the Timer Hits 0 YOU LOSE!!!!!</p>
     <button id = "startBtn" type = "button" class = "btn">Let's Quiz!</button>
+    <p>If the Timer Hits 0 YOU LOSE!!!!!</p>
+    <button id = "hscoreBtn" type = "button" class = "btn">High Scores</button>
+    
   </div>
 
   <main class = "mainWindow">
@@ -47,6 +50,12 @@
       <footer>
         <button id = "ansBtn" type = "button" class = "btn">Answer</button>
       </footer>
+    </div>
+    <div id = "highScorePane">
+      <ol>
+        <li id ="hsList"></li>
+        
+      </ol>
     </div>
     
 
