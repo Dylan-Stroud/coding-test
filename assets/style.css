@@ -19,8 +19,9 @@
     color: #ffffff;
     margin-bottom: 25px;
     
+    
   }
-  .startCont{
+  #startCont{
     padding:30px;
     display:flex;
     flex-direction: column;
@@ -31,7 +32,7 @@
     align-items: center;
     size: 50px;
   }
-  .startCont *{
+  #startCont *{
 
     margin-top: 100px;
   }
@@ -55,4 +56,17 @@
   .mainWindow{
 
     display:none;
+  }
+
+  .highScorePane{
+
+    display: none;
+  }
+  #highScorePane *{
+    margin-left: 30px;
+  }
+
+  #initials{
+    width: 100px;
+    height:20px;
   }
